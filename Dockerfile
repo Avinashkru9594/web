@@ -4,4 +4,4 @@ From tomcat:8-jre8
 MAINTAINER "skavinash49@gmail.com" 
 
 WORKDIR webapps 
-COPY target/WebApp.war
+COPY target/WebApp.war .
